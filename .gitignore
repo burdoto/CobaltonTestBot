@@ -1,0 +1,21 @@
+# Gradle
+.gradle/**
+build/**
+
+# JetBrains
+.idea/**
+**.iml
+out/**
+
+# Java
+**.jar
+**.class
+
+# Docker
+run/**
+*.log
+.classpath
+.project
+*.prefs
+bin/main/log4j2.xml
+bin/main/org/comroid/api/context.properties
