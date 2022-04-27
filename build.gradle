@@ -5,7 +5,7 @@ version '0.10-SNAPSHOT'
 
 apply from: 'gradle/vars.gradle'
 
-mainClassName = 'de.kaleidox.cobaltontest.Bot'
+mainClassName = 'de.kaleidox.testbot.Bot'
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
@@ -30,7 +30,7 @@ dependencies {
     if (isAutoDeploy) {
         implementation 'org.comroid:restless:0.+'
     } else {
-        implementation project(':guardian:restless').sourceSets.java8compat.output.classesDirs
+        implementation project(':guardian:restless')
     }
 
     implementation 'org.javacord:javacord:3.+'
