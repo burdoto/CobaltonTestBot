@@ -21,7 +21,7 @@ public class Bot {
                 .login()
                 .join();
 
-        SlashCommand.with("hello2", "Hello World!")
+        SlashCommand.with("hello", "Hello World!")
                 .addOption(SlashCommandOption.createStringOption("userId", "Greet this user", true))
                 .createGlobal(api)
                 .exceptionally(ExceptionLogger.get());
