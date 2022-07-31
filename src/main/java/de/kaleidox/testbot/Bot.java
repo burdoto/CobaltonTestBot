@@ -9,7 +9,6 @@ import org.javacord.api.interaction.SlashCommandInteractionOption;
 import org.javacord.api.interaction.SlashCommandOption;
 import org.javacord.api.util.logging.ExceptionLogger;
 
-import java.util.Arrays;
 import java.util.List;
 
 public class Bot {
